@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./CSS/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <section class="home-section">
+      <div class="home-vedio">
+        <video autoplay loop muted plays-inline>
+          <source src="./assets/kitchen.mp4" type="video/mp4">
+        </video>
+      </div>
+      <nav class="navbar navbar-expand-lg p-4 fixed-top nav-static">
+        <div class="container w-75">
+          <div class="navbar-brand">
+            <a class="navbar-brand" href="#"><img src="./assets/images/logo@2x_white.png"></a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav gap-3">
+              <li class="nav-item"><a class="nav-link active fw-bold" aria-current="page" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link text-white fw-bold" href="#">Menu</a></li>
+              <li class="nav-item"><a class="nav-link  text-white fw-bold" href="#">Contact</a></li>
+              <li class="nav-item"><a class="nav-link text-white fw-bold" href="#">Gallery</a></li>
+              <li class="nav-item"><button class="btn  border-white text-white fw-bold ">Reservation</button></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="home-caption text-center text-white d-flex flex-column justify-content-center align-items-center">
+        <div>
+          <h1>GRAND</h1>
+          <h1 class="h1-caption">RESTAURANT</h1>
+        </div>
+        <p>Making The Delicious Premium Food since</p>
+      </div>
+
+    </section>
+
+    <!--our story-->
+    <section class="our-story d-flex justify-content-center align-items-center">
+      <div class="container ps-5">
+        <div class="row story-cards ps-5">
+          <div class="col-sm-6 col-md-6 col-lg-3 p-2">
+            <div class="our-img"><img src="./assets/images/his1.jpg"></div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3 p-2">
+            <div class="our-img"><img src="./assets/images/his2.jpg"></div>
+          </div>
+          <div class="col-sm-12 col-lg-6 ">
+            <div class="our-caption shadow-lg text-center d-flex flex-column align-items-center p-5 bg-white ">
+              <h2 class="kristi">Discover</h2>
+              <h2 class="text-uppercase">our story</h2>
+              <div class=" d-flex justify-content-center">
+                <div class="our-caption-img"><img src="./assets/images/noun_leaf_3120327.png"></div>
+              </div>
+              <p class="fw-medium">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi. </p>
+              <div class="more-caption">
+                <p class="more">Learn More</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--visit us-->
+    <section class="visit d-flex justify-content-center align-items-center pt-5">
+      <div class="container">
+        <div class="row visit-cards">
+          <div class="col-sm-12 col-lg-4 visit-caption">
+            <div class="our-caption  shadow-lg text-center d-flex flex-column align-items-center p-5 bg-white ">
+              <h2 class="kristi"> Visit Our</h2>
+              <h2 class="text-uppercase">RESTAURANT</h2>
+              <div class=" d-flex justify-content-center">
+                <div class="our-caption-img"><img src="./assets/images/noun_leaf_3120327.png"></div>
+              </div>
+              <p class="fw-medium">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi. </p>
+              <div class="more-caption">
+                <p class="more">Get Locations</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-8">
+            <div class="visit-grid">
+              <div class="A"><img src="./assets/images/v1.jpg"></div>
+              <div class="B"><img src="./assets/images/v2.jpg"></div>
+              <div class="C"><img src="./assets/images/v3.jpg"></div>
+              <div class="D"><img src="./assets/images/v4.jpg"></div>
+              <div class="E"><img src="./assets/images/v5.jpg"></div>
+              <div class="F"><img src="./assets/images/v6.jpg"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--menu-->
+    <section>
+      <div class="menu-header d-flex justify-content-center align-items-center text-center">
+        <div>
+          <h2 class="kristi">our</h2>
+          <h2 class="text-uppercase fw-bolder text-white">Menus</h2>
+        </div>
+      </div>
+
+      <div class="menu-search p-5 mt-4">
+        <div class="container d-flex justify-content-center align-items-center flex-column gap-5">
+          <div class="w-75"><input type="search" name="search" id="search" class="p-3 w-100 rounded-3 "
+              placeholder="Search"></div>
+          <div class="categ d-flex justify-content-between w-100 p-4">
+            <select name="selected-categ" id="userSelction"
+              class="form-select ps-4 pe-4 pt-2 pb-2 w-25 rounded-2"></select>
+            <h2 class="fw-bold">Dishes: <span id="result"></span></h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="dishes">
+        <div class="container">
+          <div class="row">
+
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!--contact-->
+    <section class="contact d-flex justify-content-center align-items-center pt-4">
+      <div class="container ps-5">
+        <div class="row story-cards ps-5">
+          <div class="col-sm-12 col-lg-6 p-2">
+            <div class="grid">
+              <div class="t1"><img src="./assets/images/v1.jpg"></div>
+              <div class="t2"><img src="./assets/images/v3.jpg"></div>
+              <div class="t3"><img src="./assets/images/ta.jpg"></div>
+              <div class="t4"><img src="./assets/images/v2.jpg"></div>
+              <div class="t5"><img src="./assets/images/tb.jpg"></div>
+              <div class="t6"><img src="./assets/images/v6.jpg"></div>
+              <div class="t7"><img src="./assets/images/tc.jpg"></div>
+              <div class="t8"><img src="./assets/images/his2.jpg"></div>
+            </div>
+          </div>
+          <div class="col-sm-12 pt-5 pb-5 col-lg-6">
+            <div class="our-caption shadow-lg text-center d-flex flex-column align-items-center p-5 bg-white ">
+              <h2 class="kristi">Get</h2>
+              <h2 class="text-uppercase">in touch</h2>
+              <div class=" d-flex justify-content-center">
+                <div class="our-caption-img"><img src="./assets/images/noun_leaf_3120327.png"></div>
+              </div>
+              <form class="contact-form d-flex flex-column gap-4 w-100">
+                <input type="text" name="name" id="name" placeholder="Your Name"
+                  class="form-control border-secondary-subtle p-3 ">
+                <input type="email" name="email" id="email" placeholder="Your email"
+                  class="form-control border-secondary-subtle p-3">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                  style="height: 100px"></textarea>
+                <button class="btn text-white fw-bold align-self-start ps-4 pe-4 ">submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--location-->
+    <section class="visit d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="row visit-cards ">
+          <div class="col-sm-12 visit-caption col-lg-4 ">
+            <div class="our-caption shadow-lg text-center d-flex flex-column align-items-center p-5 location gap-2">
+              <h2 class="kristi">Our</h2>
+              <h2 class="text-uppercase text-white">location</h2>
+              <div class=" d-flex justify-content-center">
+                <div class="our-caption-img"><img src="./assets/images/noun_leaf_3120327_color.png"></div>
+              </div>
+              <p class="fw-medium text-white">732/21 Second Street, Manchester
+                King Street, Kingston United Kingdom </p>
+              <p class="text-white fw-bolder">1.800.456.6743</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-8">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d55627.508014709114!2d30.888637593503685!3d29.378508535444837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurants!5e0!3m2!1sen!2seg!4v1753560699163!5m2!1sen!2seg"
+              height="500" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <section>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-4 d-flex justify-content-center align-items-start gap-3 flex-column text-start">
+              <div class="colum1-r1">
+                <p>Grand Restaurant is a restaurant landing page that offers a delicious dining experience to its
+                  customers.
+                </p>
+              </div>
+              <div class="social">
+                <h3>Social Media</h3>
+              </div>
+              <div class="social-icon">
+                <ul class="d-flex gap-2">
+                  <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+
+            </div>
+            <div class="col-4 d-flex justify-content-center align-items-start gap-3 flex-column ">
+              <h3>Subscribe our Newsletter</h3>
+              <p>Don't miss out on our latest menu updates and exclusive offers - join our newsletter today and stay
+                up-to-date with all things Mealify!</p>
+              <form>
+                <div class="colum2-r2">
+                  <input class="email form-control w-100 " type="email" placeholder="Enter your Email Address"
+                    name="email">
+                  <button type="submit"><i class="fa-solid fa-envelope"></i> Subscribe</button>
+                </div>
+              </form>
+              <div class="quick-links">
+                <h3>Quick Links</h3>
+                <ul class="d-flex">
+                  <li class="p-2"><a> Menu</a></li>
+                  <li class="p-2"><a> Promr</a></li>
+                  <li class="p-2"><a> About Us</a></li>
+                  <li class="p-2"><a> Contact</a></li>
+                  <li class="p-2"><a> Testimonial</a></li>
+                  <li class="p-2"><a> Our Partners</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-4 d-flex align-items-start gap-4 flex-column">
+              <h3>Get in Touch</h3>
+              <div class="contact-us">
+                <div class="w-75 d-flex gap-2"><i class="fa-solid fa-location-dot"></i>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+                <div class="w-75 d-flex gap-2 p-3"><i class="fa-solid fa-envelope"></i><a>contact@example.com</a></div>
+                <div class="w-75 d-flex gap-2 p-3"><i class="fa-solid fa-phone"></i><a>+1 5589 55488 55</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./JS/index.js"></script>
+</body>
+
+</html>
